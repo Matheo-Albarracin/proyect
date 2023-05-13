@@ -1,0 +1,88 @@
+.cart-modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+  
+  .cart-modal-content {
+    background-color: #fff;
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+}
+  
+  .cart-modal-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+  .cart-modal-header h1, .cart-modal-header h3, .cart-modal-header h6 {
+    margin: 5px 0;
+}
+  
+  .cart-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+  
+  .cart-modal-total {
+    font-size: 20px;
+    font-weight: bold;
+}
+  
+  .cart-item {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+  
+  .cart-item-info h3 {
+    margin-bottom: 5px;
+}
+  
+  .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+  
+  .close-btn a {
+    text-decoration: none;
+    color: #000;  
+}
+  
+  .h1-checkout {
+    font-size: 36px;
+}
+  
+  .h3-checkout {
+    font-size: 24px;
+    font-weight: normal;
+}
+  
+  .h6-checkout {
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+  

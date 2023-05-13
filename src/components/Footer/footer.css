@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+footer {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    font-size: 16px;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
